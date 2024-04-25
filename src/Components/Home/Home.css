@@ -1,0 +1,36 @@
+*{
+    overflow-x: hidden;
+}
+.greeting-card{
+    background-color: rgb(26,23,98);
+    height: 120px;
+    width: 90vw;
+    color: #fff;
+    margin-left: 170px;
+    z-index: 0;
+}
+
+.home-cards{
+    margin-left: 180px;
+    width: 100vw;
+}
+.image-cards{
+    height: 100px;
+    width: 150px;
+}
+.images-container{
+    margin-left: 170px;
+}
+
+@media screen and (max-width:760px){
+    .greeting-card{
+        margin-left: 80px;
+    }
+    .images-container{
+        margin-left: 80px;
+    }
+    .home-cards{
+        margin-left: 80px;
+        text-align: center;
+    }
+}
